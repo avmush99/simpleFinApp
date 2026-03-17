@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Finch app logo: minimal flat finch bird profile (facing right)
+  with a gold coin on the wing to represent personal finance.
+  Colors:
+    #2563EB  — primary blue (body/head)
+    #1D4ED8  — darker blue (tail, wing shadow)
+    #EA580C  — orange (beak)
+    #F59E0B  — gold (coin outer)
+    #D97706  — amber (coin inner ring)
+    #FFFFFF  — white (eye)
+    #1E293B  — dark (pupil)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Tail feathers (rendered first, behind body) -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M24,59 L6,50 L11,62 L6,74 L24,71 Z" />
+
+    <!-- Body oval (cx=46, cy=65, rx=22, ry=16) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M24,65 A22,16 0 1,0 68,65 A22,16 0 1,0 24,65 Z" />
+
+    <!-- Head circle (cx=68, cy=42, r=14) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,42 A14,14 0 1,0 82,42 A14,14 0 1,0 54,42 Z" />
+
+    <!-- Wing shadow on body (cx=46, cy=63, rx=18, ry=11) -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M28,63 A18,11 0 1,0 64,63 A18,11 0 1,0 28,63 Z" />
+
+    <!-- Gold coin outer (cx=48, cy=62, r=9) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M39,62 A9,9 0 1,0 57,62 A9,9 0 1,0 39,62 Z" />
+
+    <!-- Coin inner ring (cx=48, cy=62, r=5.5) -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M42.5,62 A5.5,5.5 0 1,0 53.5,62 A5.5,5.5 0 1,0 42.5,62 Z" />
+
+    <!-- Beak — orange triangle pointing right -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M82,39 L82,45 L96,42 Z" />
+
+    <!-- Eye white (cx=73, cy=39, r=4) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M69,39 A4,4 0 1,0 77,39 A4,4 0 1,0 69,39 Z" />
+
+    <!-- Eye pupil (cx=74, cy=39, r=2.5) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M71.5,39 A2.5,2.5 0 1,0 76.5,39 A2.5,2.5 0 1,0 71.5,39 Z" />
+
+</vector>
