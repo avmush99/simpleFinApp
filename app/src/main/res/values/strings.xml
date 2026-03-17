@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Tracker</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Welcome!</string>
+    <string name="setup_subtitle">Set up your monthly budget to get started</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="income_hint">Enter your monthly income</string>
+    <string name="save_and_start">Save &amp; Start Tracking</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="settings_saved">Settings saved!</string>
+
+    <!-- Main -->
+    <string name="total_spent">Total Spent</string>
+    <string name="remaining">Remaining:</string>
+    <string name="spendings">Spendings This Month</string>
+    <string name="no_spendings">No spendings yet.\nTap + to add your first expense.</string>
+    <string name="add_spending">Add Spending</string>
+
+    <!-- Dialog -->
+    <string name="amount_hint">Amount</string>
+    <string name="label_hint">Category / Label</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Delete -->
+    <string name="delete_spending">Delete Spending?</string>
+    <string name="delete_spending_confirm">Remove \"%1$s\" (%2$s)?</string>
+    <string name="delete">Delete</string>
+
+    <!-- Menu -->
+    <string name="reset_month">Reset Month</string>
+    <string name="reset_month_confirm">This will clear all spendings for this month. Are you sure?</string>
+    <string name="reset">Reset</string>
+    <string name="month_reset_done">Month reset. Good luck!</string>
+    <string name="manage_labels">Manage Labels</string>
+    <string name="add_label">Add Label</string>
+    <string name="label_added">Label \"%1$s\" added</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+
+    <!-- Errors -->
+    <string name="error_income_required">Please enter your income</string>
+    <string name="error_income_invalid">Please enter a valid amount</string>
+    <string name="error_amount_required">Please enter an amount</string>
+    <string name="error_amount_invalid">Please enter a valid positive amount</string>
+    <string name="error_label_required">Please select or enter a label</string>
+</resources>
